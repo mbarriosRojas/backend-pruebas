@@ -1,0 +1,23 @@
+Node.js y MongoDB, se requiere implementar un endpoint GET que proporcione un informe detallado de pedidos realizados.
+
+El informe debe presentar cada pedido con una estructura clara y contextual, conteniendo únicamente los siguientes campos:
+
+IdPedido,
+nombre_punto_entrega,
+nombre_establecimiento,
+nit_del_establecimiento,
+direccion_del_establecimiento,
+ciudad_establecimiento,
+departamento_establecimiento,
+fecha_pedido: formato: (YYYY-MM-DD)
+productos:{
+	nombre_producto	
+    cantidad_comprada
+	precio: 
+	fotografia:
+	puntos_ft_producto
+	nombre_marca_producto
+	linea_linea_producto
+},
+estado_vinculacion_punto_distirbuidor.
+traking_pedido
